@@ -1,0 +1,128 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url("bokking\ photo.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* Navigation Bar */
+header {
+    background: linear-gradient(to right, #ff4d6d, #ff758c, #ff9aa2);
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+/* Navigation Hover Effect */
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Login Button */
+.login-btn {
+    background: white;
+    color: #ff4d6d;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.login-btn:hover {
+    background: #fff3f3;
+    color: #d43f5c;
+}
+
+/* Booking Form */
+.booking-form {
+    background: rgba(255, 255, 255, 0.9);
+    color: black;
+    padding: 50px 20px;
+    max-width: 400px;
+    margin: 120px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.booking-form h2 {
+    text-align: center;
+}
+
+/* Form Input Styling */
+.booking-form input, .booking-form select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* Time Selection */
+.time-selection {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.time-selection select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Buttons */
+.btn {
+    background: #ff4d6d;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #e03e5d;
+    transform: translateY(-5px);
+}

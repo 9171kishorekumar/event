@@ -1,0 +1,133 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(135deg, #4CAF50, #2E8B57);
+    color: white;
+}
+
+/* Navigation Bar */
+header {
+    background: linear-gradient(to right, #1B5E20, #388E3C);
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+/* Contact Section */
+.contact-us {
+    background: white;
+    color: black;
+    padding: 50px 20px;
+}
+
+.contact-us h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.contact-details {
+    background: linear-gradient(120deg, #388E3C, #1B5E20);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.contact-details p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contact-details a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+/* Contact Form */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background: linear-gradient(135deg, #388E3C, #2E8B57);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 100px;
+    resize: none;
+}
+
+/* Button */
+.btn {
+    background: #FFD700;
+    color: black;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: #E3C100;
+}
+
+/* Footer */
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+}

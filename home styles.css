@@ -1,0 +1,136 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(120deg,  #ff7eb3, #ff758c, #ff7eb3);
+    color: white;
+}
+
+/* Navigation Bar */
+header {
+    background: linear-gradient(to right,  #ff7eb3, #ff758c, #ff7eb3);
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    padding: 100px 20px;
+    background: url('event-bg.jpg') no-repeat center center/cover;
+    text-shadow: 2px 2px 5px black;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #FFD700;
+    color: black;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #E3C100;
+}
+
+/* About Section */
+.about {
+    background: white;
+    color: black;
+    padding: 50px 20px;
+}
+
+/* Why Choose Us */
+.why-choose {
+    padding: 50px 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+/* Reviews */
+.reviews {
+    background: white;
+    color: black;
+    padding: 50px 20px;
+}
+
+.review-container {
+    max-width: 600px;
+    margin: auto;
+    position: relative;
+}
+
+.review {
+    display: none;
+    background: #4CAF50;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.review.active {
+    display: block;
+}
+
+/* Footer */
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+}
