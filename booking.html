@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Event | Aadhi Event Management</title>
+    <link rel="stylesheet" href="bokking style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <h1>Aadhi Event Management</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="event.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="booking.html">payment</a></li>
+                <li><a href="login index.html" class="login-btn">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Booking Form Section -->
+    <section class="booking-form">
+        <h2>Reserve Your Event</h2>
+        <form id="event-booking-form">
+            
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" required placeholder="Enter your full name">
+
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" required placeholder="Enter your phone number">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required placeholder="Enter your email">
+
+            <label for="event-name">Select Event:</label>
+            <select id="event-name">
+                <option value="Wedding">Wedding</option>
+                <option value="Birthday Party">Birthday Party</option>
+                <option value="Corporate Event">Corporate Event</option>
+                <option value="Music Concert">Music Concert</option>
+                <option value="Fashion Show">Fashion Show</option>
+                <option value="Exhibition">Art & Tech Exhibition</option>
+                <option value="Sports Tournament">Sports Tournament</option>
+                <option value="Workshops">Workshops</option>
+                <option value="Festival Celebration">Festival Celebration</option>
+                <option value="Charity Event">Charity Event</option>
+            </select>
+
+            <label for="event-time">Event Time:</label>
+            <div class="time-selection">
+                <select id="hours">
+                    <option value="" disabled selected>HH</option>
+                </select>
+                :
+                <select id="minutes">
+                    <option value="" disabled selected>MM</option>
+                </select>
+                <select id="ampm">
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                </select>
+            </div>
+
+            <label for="location">Event Location:</label>
+            <input type="text" id="location" required placeholder="Enter event location">
+
+            <button type="submit" class="btn">Confirm Booking</button>
+
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Aadhi Event Management | Designed with ❤️</p>
+    </footer>
+
+    <script src="booking scrpit.js"></script>
+</body>
+</html>
